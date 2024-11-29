@@ -36,7 +36,8 @@ O núcleo do sistema, projetado com subcomponentes que trabalham de forma integr
 
 Leitor de Grafos: Carrega e valida a estrutura do grafo.
 Criador de Embeddings: Utiliza modelos como BERT para transformar perguntas e elementos do grafo em vetores semânticos.
-Podador: Reduz o espaço de busca usando métricas de similaridade, otimizando o desempenho.
+Podador: Reduz o espaço de busca usando métricas de similaridade, otimizando o desempenho.\
+
 
 ![arquitetura_modulo drawio (1)](https://github.com/user-attachments/assets/ba325948-7dbf-4679-8f1f-5c694326a6b3)
 
@@ -55,7 +56,8 @@ O acerto foi otimizado e tempo médio de resposta foi reduzido consideravelmente
 ## Conclusão
 Este projeto apresentou uma solução inovadora para sistemas de QA, combinando tecnologias modernas de NLP com estruturas eficientes de grafos de conhecimento. A arquitetura modular e a implementação cuidadosa permitiram:
 
-Eficiência no Processamento: Respostas rápidas e precisas em diversos cenários.
-Experiência de Usuário: Transparência no processo de busca e interface intuitiva.
-Escalabilidade: Suporte a grafos complexos sem perda significativa de desempenho.
+* Eficiência no Processamento: Respostas rápidas e precisas em diversos cenários.
+* Experiência de Usuário: Transparência no processo de busca e interface intuitiva.
+* Escalabilidade: Suporte a grafos complexos sem perda significativa de desempenho.
+
 O sistema tem aplicações em diversas áreas, como educação, atendimento ao cliente e suporte técnico, sendo uma contribuição significativa para a área de sistemas inteligentes e interação homem-máquina.
