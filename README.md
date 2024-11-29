@@ -34,9 +34,9 @@ Tecnologia: Arquitetura baseada em APIs para facilitar integração e modularida
 3. Módulo de Resposta
 O núcleo do sistema, projetado com subcomponentes que trabalham de forma integrada:
 
-Leitor de Grafos: Carrega e valida a estrutura do grafo.
-Criador de Embeddings: Utiliza modelos como BERT para transformar perguntas e elementos do grafo em vetores semânticos.
-Podador: Reduz o espaço de busca usando métricas de similaridade, otimizando o desempenho.\
+* Leitor de Grafos: Carrega e valida a estrutura do grafo.
+* Criador de Embeddings: Utiliza modelos como BERT para transformar perguntas e elementos do grafo em vetores semânticos.
+* Podador: Reduz o espaço de busca usando métricas de similaridade, otimizando o desempenho.
 
 
 ![arquitetura_modulo drawio (1)](https://github.com/user-attachments/assets/ba325948-7dbf-4679-8f1f-5c694326a6b3)
@@ -45,7 +45,7 @@ Podador: Reduz o espaço de busca usando métricas de similaridade, otimizando o
 ### Metodologia de Testes
 Ao longo do desenvolvimento do projeto, realizamos uma série de testes rigorosos para avaliar o desempenho e a eficiência do sistema em diferentes cenários. Inicialmente, os testes focaram na validação das funcionalidades principais, garantindo que cada componente operasse conforme o esperado. Posteriormente, avançamos para análises mais detalhadas, incluindo simulações com diferentes cargas e variações de entrada, permitindo identificar pontos críticos que poderiam comprometer o desempenho. Cada rodada de testes trouxe insights valiosos, possibilitando ajustes que resultaram em melhorias significativas na estabilidade, na velocidade de processamento e na capacidade de atender às demandas do sistema.
 
-Com base nos resultados obtidos, decisões importantes foram tomadas para refinar o projeto e alcançar sua versão final. Ajustes no algoritmo central, otimizações na estrutura de dados e alterações na lógica de tratamento de erros foram implementados para garantir maior eficiência e confiabilidade. Essa abordagem iterativa, guiada por testes constantes, permitiu que chegássemos a uma solução robusta, capaz de atender aos requisitos estabelecidos com precisão e qualidade. O processo reforçou a importância de uma metodologia baseada em experimentação e análise contínua para alcançar resultados sólidos.\
+Com base nos resultados obtidos, decisões importantes foram tomadas para refinar o projeto e alcançar sua versão final. Ajustes no algoritmo central, otimizações na estrutura de dados e alterações na lógica de tratamento de erros foram implementados para garantir maior eficiência e confiabilidade. Essa abordagem iterativa, guiada por testes constantes, permitiu que chegássemos a uma solução robusta, capaz de atender aos requisitos estabelecidos com precisão e qualidade. O processo reforçou a importância de uma metodologia baseada em experimentação e análise contínua para alcançar resultados sólidos.
 
 ![image](https://github.com/user-attachments/assets/feb5dd5f-98c7-4d60-afbc-65fa3ae33204)
 
